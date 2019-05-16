@@ -1,0 +1,103 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background: black;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline;
+  margin: 10px 10px 0 0px;
+}
+
+.navItems {
+  display: inline;
+  margin: 10px 0 0 0;
+}
+
+li {
+  display: inline;
+  color: white;
+  font-family: interface, Helvetica Neue, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.buttonHolder {
+  margin: 10px 10px 0 30px;
+}
+
+.btn {
+  display: inline;
+  margin: 0 2px 0 2px;
+}
+
+.logIn {
+  background: #3e3e3e;
+  color: white;
+  font-family: interface, Helvetica Neue, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0 0 30px;
+}
+
+h2 {
+  color: #b2b2b2;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-family: interface, Helvetica Neue, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.search {
+  display: inline;
+}
+
+.input-group {
+  display: inline;
+}
+
+.trending {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+}
+
+.ad {
+  max-width: 900px;
+}
+
+.d-block {
+  margin: 0 2px 0 2px;
+}
+
+.today {
+  margin: 50px 0 0 0;
+  color: white;
+  font-family: interface, Helvetica Neue, helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 900;
+  display: inline;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 200;
+  display: inline;
+}
+
+.latest {
+  margin: 20px 0 0 0;
+}

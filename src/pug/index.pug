@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title GIPHY | Search All the GIFs & Make Your Own Animated GIF
+        link(rel="stylesheet", href="../sass/style.scss")
+
+        script(src="../js/main.js")
+    body
+        nav
+            div.logo
+                a(href='#')
+                    img(src="../giphylogo.png")
+            ul.navItems
+                li Reactions
+                li Entertainment
+                li Sports
+                li Stickers
+                li Artists
+                li :
+            ul.buttonHolder   
+                a.btn.btn-primary(href='#', role='button') Upload
+                a.btn.btn-primary(href='#', role='button') Create
+            ul.anotherButtonHolder
+                a.logIn.btn.btn-primary(href='#', role='button') Log In
+        div.search
+            .input-group.mb-3
+            input.form-control(type='text', placeholder="Search all the GIFs and Stickers", aria-label="Recipient's username", aria-describedby='button-addon2')
+            .input-group-append
+                button#button-addon2.btn.btn-outline-secondary(type='button') Button
+            //- input
+            //- button
+        div.ad
+            img(src="http://www.fillmurray.com/900/100")
+        div.trending
+            h2 Trending Gifs
+            h2 See All >
+        .container
+            .carousel.slide(data-ride='carousel')
+                .carousel-inner
+                    .carousel-item.active
+                        .row
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/444', alt='1 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/ccff00', alt='2 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600', alt='3 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600', alt='4 slide') 
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600', alt='5 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600', alt='6 slide')      
+                    .carousel-item
+                        .row
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/ccff00', alt='7 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/444', alt='8 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/ddd', alt='9 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/ccff00', alt='10 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/444', alt='11 slide')
+                            .col-sm
+                                img.d-block.w-75(src='//placehold.it/1200x600/ddd', alt='12 slide')
+        div.section    
+            div.today
+                h1 Today
+                h3 &nbsp May 15            
+            div.latest 
+                h2 Latest Stories 
+            .container
+                .row
+                    .col-6
+                        img(src="http://www.fillmurray.com/450/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/430/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+        div.section    
+            div.today
+                h1 Yesterday
+                h3 &nbsp May 14            
+            div.latest 
+                h2 All Stories 
+            .container
+                .row
+                    .col-6
+                        img(src="http://www.fillmurray.com/450/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/430/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                .row
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-6
+                        img(src="http://www.fillmurray.com/450/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/430/300', )='')
+                .row
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+                    .col-2
+                        img(src="http://www.fillmurray.com/225/300")
+                        //- a(href='#', img(src='http://www.fillmurray.com/225/300', )='')
+        

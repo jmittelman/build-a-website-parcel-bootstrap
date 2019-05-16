@@ -3,7 +3,7 @@
 body {
   background: black;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 960px;
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 
 .logo {
   display: inline;
-  margin: 10px 10px 0 0px;
+  margin: 10px 0 0 0;
 }
 
 .navItems {
@@ -28,16 +28,21 @@ li {
   font-size: 15px;
   font-weight: 600;
   list-style-type: none;
-  padding: 20px;
+  padding: 10px;
 }
 
 .buttonHolder {
-  margin: 10px 10px 0 30px;
+  margin: 10px 10px 10px 30px;
+}
+
+.anotherButtonHolder {
+  margin: 10px 0 10px 0;
 }
 
 .btn {
   display: inline;
   margin: 0 2px 0 2px;
+  background: #6464f6;
 }
 
 .logIn {
@@ -47,6 +52,7 @@ li {
   font-size: 15px;
   font-weight: 600;
   margin: 10px 0 0 30px;
+  width: 100px;
 }
 
 h2 {
@@ -58,7 +64,7 @@ h2 {
   font-weight: 600;
 }
 
-.search {
+.mb-3 {
   display: inline;
 }
 
@@ -73,7 +79,7 @@ h2 {
 }
 
 .ad {
-  max-width: 900px;
+  max-width: 100%;
 }
 
 .d-block {

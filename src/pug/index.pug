@@ -12,7 +12,7 @@ html(lang="en")
         nav
             div.logo
                 a(href='#')
-                    img(src="../giphylogo.png")
+                    img(src="../giphylogo.png")  
             ul.navItems
                 li Reactions
                 li Entertainment
@@ -26,12 +26,14 @@ html(lang="en")
             div.anotherButtonHolder
                 a.logIn.btn.btn-primary(href='#', role='button') Log In
         div.search
-            .input-group.mb-3
-            input.form-control(type='text', placeholder="Search all the GIFs and Stickers", aria-label="Recipient's username", aria-describedby='button-addon2')
-            .input-group-append
-                button#button-addon2.btn.btn-outline-secondary(type='button') Button
-            //- input
-            //- button
+            //- .input-group.mb-3
+            //- input.form-control(type='text', placeholder="Search all the GIFs and Stickers", aria-label="Recipient's username", aria-describedby='button-addon2')
+            //- .input-group-append
+            //-     button#button-addon2.btn.btn-outline-secondary(type='button') Button
+            input(placeholder='Search all the GIFs and Stickers')
+            button.magnify
+                a(href='#')
+                    img(src="https://giphy.com/static/img/search-icon.svg")
         div.ad
             img(src="http://www.fillmurray.com/960/100")
         div.trending

@@ -72,6 +72,18 @@ h2 {
   display: inline;
 }
 
+input {
+  width: 95%;
+  padding: 10px 0 10px 0;
+  margin: 5px 0 10px 0;
+}
+
+.magnify {
+  width: 5%;
+  background: #b657b7;
+  padding: 10px 0 6px 0;
+}
+
 .trending {
   display: flex;
   justify-content: space-between;
